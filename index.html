@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Memória - DevIcons</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Jogo da Memória</h1>
+            <p>Encontre todos os pares no menor número de jogadas!</p>
+        </header>
+
+        <div class="stats-container">
+            <div class="stat">
+                <span class="stat-label">Movimentos:</span>
+                <span id="moves">0</span>
+            </div>
+            <div class="stat">
+                <span class="stat-label">Pares Encontrados:</span>
+                <span id="matches">0</span> / 8
+            </div>
+            <button id="restart-btn">Reiniciar Jogo</button>
+        </div>
+
+        <main id="game-board" class="game-board"></main>
+
+        <div id="win-message" class="win-message hidden">
+            <h2>🎉 Parabéns! Você Venceu!</h2>
+            <p>Você completou o jogo em <span id="final-moves">0</span> movimentos.</p>
+            <button id="play-again-btn">Jogar Novamente</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
