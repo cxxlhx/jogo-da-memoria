@@ -21,7 +21,7 @@ O objetivo do jogo é encontrar todos os 8 pares de ícones iguais no menor núm
 
 ## Link para a Versão Publicada
 
-[Acesse o Jogo no GitHub Pages](https://seu-usuario.github.io/nome-do-repositorio/)
+[Acesse o Jogo no GitHub Pages](https://cxxlhx.github.io/jogo-da-memoria/)
 
 ---
 
